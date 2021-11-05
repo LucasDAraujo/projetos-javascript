@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <!-- ROBOTO FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +19,40 @@
     </head>
     <body>
         <div class="urna">
-            <div class="tela">...</div>
+            <div class="tela">
+                <div id="divisao-1" class="flex-1 display-flex">
+                    <div id="divisao-1-left" class="flex-1 display-flex">
+                        <div id="divisao-1-1" class="display-flex">
+                            <span>Seu voto para</span>
+                        </div>
+                        <div id="divisao-1-2" class="display-flex">
+                            Vereador
+                        </div>
+                        <div id="divisao-1-3">
+                            <div class="numero pisca"></div>
+                            <div class="numero"></div>
+                        </div>
+                        <div id="divisao-1-4" class="flex-1">
+                            Nome: FULANO DE TAL Partido:<br />
+                            Partido:QQQ<br />
+                            Vice-prefeito: BELTRANO
+                        </div>
+                    </div>
+                    <div id="divisao-1-right">
+                        <div class="divisao-1-image">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SXJfPBvDydmx1QtAxX2kOgHaFj%26pid%3DApi&f=1" alt="" srcset="" />Prefeito
+                        </div>
+                        <div class="divisao-1-image small">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SXJfPBvDydmx1QtAxX2kOgHaFj%26pid%3DApi&f=1" alt="" srcset="" />Vice-prefeito
+                        </div>
+                    </div>
+                </div>
+                <div id="divisao-2">
+                    Aperte a tela:<br />
+                    CONFIRMA para CONFIRMAR este voto<br />
+                    CORRIGE para REINICIAR este voto
+                </div>
+            </div>
             <div class="teclado">
                 <div class="teclado-linha">
                     <div class="teclado-botao">1</div>
